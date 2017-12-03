@@ -38,4 +38,4 @@ def submit_form(request):
     else:
         form = Submit()
 
-    return render(request, 'poll/formpage.html', {'form':form})
+    return render(request, 'poll/formpage.html', {'form': form})

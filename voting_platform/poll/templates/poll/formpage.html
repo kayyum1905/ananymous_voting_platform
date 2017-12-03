@@ -6,11 +6,18 @@
 </head>
 <body>
     <div>
+        <p>Submit Category & Candidates!</p>
+
         <form action="" role="form" method="post">
             {{ form.as_p }}
             {% csrf_token %}
             <button type="submit" value="submit">Submit</button>
         </form>
+
+        <form action="http://127.0.0.1:8000/user/">
+             <input type="submit" value="Admin">
+        </form>
+
     </div>
 
 </body>
